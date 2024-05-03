@@ -88,3 +88,42 @@ for(i=1; i<=15; i++){
 }
 document.write("<br>")
 }
+
+var secretnum = 9
+var usernum = prompt("Enter a number between 1 to 10")
+if(secretnum == usernum){
+    alert("Congo! You have guessed right")
+}
+else{
+    alert("Try again")
+}
+
+var num = prompt("enter any number")
+document.write( "original value  :"+ num + "<br>")
+var roundednum = Math.round(num )
+document.write("rounded value  :"+roundednum + "<br>")
+var floornum = Math.floor(num)
+document.write("floor value   :"+floornum + "<br>")
+var ceilednum = Math.ceil(num)
+document.write("ceil value  :"+ceilednum + "<br>")
+
+document.write("<br>")
+
+
+var userweight = prompt("enter your weight")
+document.write("original value :"+userweight + "<br>")
+var rounduser = Math.round( userweight)
+document.write("Rounded value of user's weight :" + rounduser )
+
+
+document.write("<br>")
+
+
+var num = prompt("enter any negative number")
+document.write( "original value  :"+ num + "<br>")
+var roundednum = Math.round(num )
+document.write("rounded value  :"+roundednum + "<br>")
+var floornum = Math.floor(num)
+document.write("floor value   :"+floornum + "<br>")
+var ceilednum = Math.ceil(num)
+document.write("ceil value  :"+ceilednum + "<br>")
